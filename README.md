@@ -35,7 +35,7 @@ timestep | total population | population of the largest species | number of spec
 
 Further documentation 
 ---------------------
-Paper `paper`
+Paper [paper][]
 
 [paper]: https://academic.oup.com/mnras/article/477/1/727/4935177
 
