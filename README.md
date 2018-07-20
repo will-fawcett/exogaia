@@ -6,8 +6,21 @@ Installation
 ------------
 Clone and compile the code as follows:
 
-  git clone git@github.com:will-fawcett/exogaia.git
-  g++ -o exogaia.exe exogaia.cpp
+    git clone git@github.com:will-fawcett/exogaia.git
+    g++ -o exogaia.exe exogaia.cpp
+
+
+Compiling YCM **with** semantic support for C-family languages:
+
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.py --clang-completer
+
+Compiling YCM **without** semantic support for C-family languages:
+
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.py
+
+The following additional language support options are available:
 
 Execution
 ---------
@@ -27,7 +40,7 @@ For the data in the paper the numbers corresponding to each chemical set:
 
 e.g. example run:
 
-  ./exogaia.exe 120 1234564 1234560 0
+`./exogaia.exe 120 1234564 1234560 0`
 
 The parameter link_probability determines the connectivity of the geochemical network (between 0 and 1)
 
