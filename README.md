@@ -1,5 +1,5 @@
-# exogaia
-=========
+exogaia
+============
 ExoGaia code
 
 Installation
